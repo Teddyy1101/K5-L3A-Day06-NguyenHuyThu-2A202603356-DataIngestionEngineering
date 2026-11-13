@@ -1,0 +1,16 @@
+﻿strategy,question_id,question,grounding_score_0_to_2,reason,top_hit_chunk_id,top_hit_page,hit_at_3
+A,q16,What command is used to get a copy of an existing Git repository?,2,Top-1 chứa đầy đủ bằng chứng nguyên văn và đúng trang nguồn để trả lời trọn vẹn.,A_progit-v2_p33_c001,33,True
+A,q17,Which option in git log shows the difference or patch output introduced in each commit?,2,Top-1 chứa đầy đủ bằng chứng nguyên văn và đúng trang nguồn để trả lời trọn vẹn.,A_progit-v2_p47_c000,47,True
+A,q18,What command does git status suggest to discard changes in your working directory and unmodify a modified file?,2,"Bằng chứng đầy đủ nằm ở rank 3, đủ để LLM grounding và trích dẫn trang nguồn.",A_progit-v2_p54_c002,54,True
+A,q19,"What is the difference between running git mv and manually moving, removing, and adding files?",2,"Bằng chứng đầy đủ nằm ở rank 2, đủ để LLM grounding và trích dẫn trang nguồn.",A_progit-v2_p45_c002,45,True
+A,q20,"In Git configuration files, what file contains values applied to every user and repository on the system?",2,Top-1 chứa đầy đủ bằng chứng nguyên văn và đúng trang nguồn để trả lời trọn vẹn.,A_progit-v2_p27_c002,27,True
+B,q16,What command is used to get a copy of an existing Git repository?,2,Top-1 chứa đầy đủ bằng chứng nguyên văn và đúng trang nguồn để trả lời trọn vẹn.,B_progit-v2_p33_c001,33,True
+B,q17,Which option in git log shows the difference or patch output introduced in each commit?,2,Top-1 chứa đầy đủ bằng chứng nguyên văn và đúng trang nguồn để trả lời trọn vẹn.,B_progit-v2_p47_c002,47,True
+B,q18,What command does git status suggest to discard changes in your working directory and unmodify a modified file?,2,"Bằng chứng đầy đủ nằm ở rank 2, đủ để LLM grounding và trích dẫn trang nguồn.",B_progit-v2_p54_c002,54,True
+B,q19,"What is the difference between running git mv and manually moving, removing, and adding files?",2,"Bằng chứng đầy đủ nằm ở rank 2, đủ để LLM grounding và trích dẫn trang nguồn.",B_progit-v2_p45_c001,45,True
+B,q20,"In Git configuration files, what file contains values applied to every user and repository on the system?",2,Top-1 chứa đầy đủ bằng chứng nguyên văn và đúng trang nguồn để trả lời trọn vẹn.,B_progit-v2_p27_c002,27,True
+C,q16,What command is used to get a copy of an existing Git repository?,2,Top-1 chứa đầy đủ bằng chứng nguyên văn và đúng trang nguồn để trả lời trọn vẹn.,B_progit-v2_p33_c001,33,True
+C,q17,Which option in git log shows the difference or patch output introduced in each commit?,2,Top-1 chứa đầy đủ bằng chứng nguyên văn và đúng trang nguồn để trả lời trọn vẹn.,B_progit-v2_p47_c002,47,True
+C,q18,What command does git status suggest to discard changes in your working directory and unmodify a modified file?,2,"Bằng chứng đầy đủ nằm ở rank 2, đủ để LLM grounding và trích dẫn trang nguồn.",B_progit-v2_p54_c002,54,True
+C,q19,"What is the difference between running git mv and manually moving, removing, and adding files?",2,"Bằng chứng đầy đủ nằm ở rank 2, đủ để LLM grounding và trích dẫn trang nguồn.",B_progit-v2_p45_c001,45,True
+C,q20,"In Git configuration files, what file contains values applied to every user and repository on the system?",2,Top-1 chứa đầy đủ bằng chứng nguyên văn và đúng trang nguồn để trả lời trọn vẹn.,B_progit-v2_p27_c002,27,True

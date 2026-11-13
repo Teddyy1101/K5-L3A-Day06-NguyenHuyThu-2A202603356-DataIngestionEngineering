@@ -1,0 +1,23 @@
+{
+  "valid_pages_count": 47,
+  "total_source_chars": 88341,
+  "strategy_a_fixed_size": {
+    "chunk_count": 215,
+    "size_param": 500,
+    "overlap_param": 50,
+    "min_length": 73,
+    "max_length": 500,
+    "mean_length": 449.65,
+    "median_length": 500,
+    "total_chars": 96675
+  },
+  "strategy_b_by_paragraph": {
+    "chunk_count": 191,
+    "max_size_param": 600,
+    "min_length": 36,
+    "max_length": 603,
+    "mean_length": 461.81,
+    "median_length": 514,
+    "total_chars": 88206
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-13T12:07:23.304614",
+  "total_pipeline_time_seconds": 11.69,
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "total_tokens_used": 45340,
+  "estimated_cost_usd": 0.000907,
+  "idempotency_verified": true,
+  "strategies": {
+    "A": {
+      "chunk_count": 215,
+      "ingest_time_seconds": 5.61
+    },
+    "B": {
+      "chunk_count": 191,
+      "ingest_time_seconds": 3.37
+    },
+    "C": {
+      "chunk_count": 191,
+      "note": "Shares B chunks/embeddings; applies metadata filter at retrieval"
+    }
+  }
+}
