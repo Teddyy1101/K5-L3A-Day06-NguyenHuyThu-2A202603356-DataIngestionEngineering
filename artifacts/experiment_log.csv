@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,chapter",none,text-embedding-3-small,"Fixed-size de bi cat ngang cau hoac tach roi menh de dieu kien khoi bang chung; Hit@3 va Coherence du kien thap hon B",,,,
+B,by_paragraph,600,0,"document_id,source,page,chapter",none,text-embedding-3-small,"By-paragraph giu tron ven ngu canh cau va doan van; giup tang Evidence Hit@3 va diem Coherence so voi A",,,,
+C,by_paragraph,600,0,"document_id,source,page,chapter",chapter,text-embedding-3-small,"Tuan thu ngat theo chapter giup loai bo hoan toan chunk nhieu tu chuong khac; tang do chinh xac Hit@1 va Hit@3 tren cac cau co filter",,,,

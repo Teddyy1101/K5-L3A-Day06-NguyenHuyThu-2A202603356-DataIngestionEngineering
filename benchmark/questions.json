@@ -1,0 +1,228 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "How does Git think of its data compared to other VCS that store information as a list of file-based changes?",
+    "expected_answer": "Git thinks of its data more like a series of snapshots of a miniature filesystem.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 21,
+    "evidence_quote": "Instead, Git thinks of its data more like a series of snapshots of a miniature filesystem.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What are the three main states that Git has for files to reside in?",
+    "expected_answer": "Modified, staged, and committed.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 22,
+    "evidence_quote": "Git has three main states that your files can reside in: modified, staged, and committed:",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What command can be used to view all Git configuration settings and where they are coming from?",
+    "expected_answer": "git config --list --show-origin",
+    "gold_source_id": "progit-v2",
+    "gold_page": 28,
+    "evidence_quote": "You can view all of your settings and where they are coming from using: $ git config --list --show-origin",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What are the three equivalent ways to get manual page help for any Git command?",
+    "expected_answer": "git help <verb>, git <verb> --help, or man git-<verb>",
+    "gold_source_id": "progit-v2",
+    "gold_page": 30,
+    "evidence_quote": "there are three equivalent ways to get the comprehensive manual page (manpage) help for any of the Git commands: $ git help <verb> $ git <verb> --help $ man git-<verb>",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "In the short output format of git status, what do the two columns indicate?",
+    "expected_answer": "The left-hand column indicates the status of the staging area and the right-hand column indicates the status of the working tree.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 38,
+    "evidence_quote": "There are two columns to the output — the left- hand column indicates the status of the staging area and the right-hand column indicates the status of the working tree.",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "How can you make Git automatically stage every file that is already tracked before committing?",
+    "expected_answer": "By adding the -a option to git commit.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 43,
+    "evidence_quote": "Adding the -a option to the git commit command makes Git automatically stage every file that is already tracked before doing the commit, letting you skip the git add part:",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Why can almost all daily operations in Git be performed without an internet or network connection?",
+    "expected_answer": "Because most operations in Git need only local files and resources to operate.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 21,
+    "evidence_quote": "Most operations in Git need only local files and resources to operate — generally no information is needed from another computer on your network.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "How does Git ensure data integrity and prevent file contents from being changed without detection?",
+    "expected_answer": "Everything in Git is checksummed before it is stored and is referred to by that checksum.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 22,
+    "evidence_quote": "Everything in Git is checksummed before it is stored and is then referred to by that checksum.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "In a .gitignore file, what does an asterisk symbol match in glob patterns?",
+    "expected_answer": "An asterisk matches zero or more characters.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 38,
+    "evidence_quote": "An asterisk ( *) matches zero or more characters; [abc] matches any character inside the brackets",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What two core questions does the git diff command help answer?",
+    "expected_answer": "What have you changed but not yet staged, and what have you staged that you are about to commit.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 39,
+    "evidence_quote": "We’ll cover git diff in more detail later, but you’ll probably use it most often to answer these two questions: What have you changed but not yet staged? And what have you staged that you are about to commit?",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What does git diff --staged compare?",
+    "expected_answer": "It compares your staged changes to your last commit.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 40,
+    "evidence_quote": "This command compares your staged changes to your last commit:",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "If you modify a file after running git add, which version goes into the commit if you commit immediately?",
+    "expected_answer": "The version as it was when you last ran git add, not the working directory version.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 37,
+    "evidence_quote": "It turns out that Git stages a file exactly as it is when you run the git add command. If you commit now, the version of CONTRIBUTING.md as it was when you last ran the git add command is how it will go into the commit, not the version of the file as it looks in your working directory",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "What command option allows you to stop tracking a file while keeping it on your hard drive?",
+    "expected_answer": "Use the --cached option with git rm.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 45,
+    "evidence_quote": "To do this, use the --cached option: $ git rm --cached README",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "In Git configuration, under what condition do you only need to specify your user name and email once?",
+    "expected_answer": "When you pass the --global option because Git will always use that information for anything you do on that system.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 28,
+    "evidence_quote": "you need to do this only once if you pass the --global option, because then Git will always use that information for anything you do on that system.",
+    "filter": {
+      "chapter": "ch01_getting_started"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "In nested .gitignore files, what is the scope of rules specified in those files?",
+    "expected_answer": "The rules in nested .gitignore files apply only to the files under the directory where they are located.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 39,
+    "evidence_quote": "The rules in these nested .gitignore files apply only to the files under the directory where they are located.",
+    "filter": {
+      "chapter": "ch02_git_basics"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "What command is used to get a copy of an existing Git repository?",
+    "expected_answer": "git clone",
+    "gold_source_id": "progit-v2",
+    "gold_page": 33,
+    "evidence_quote": "If you want to get a copy of an existing Git repository — for example, a project you’d like to contribute to — the command you need is git clone.",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Which option in git log shows the difference or patch output introduced in each commit?",
+    "expected_answer": "-p or --patch",
+    "gold_source_id": "progit-v2",
+    "gold_page": 47,
+    "evidence_quote": "One of the more helpful options is -p or --patch, which shows the difference (the patch output) introduced in each commit.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "What command does git status suggest to discard changes in your working directory and unmodify a modified file?",
+    "expected_answer": "git restore <file>",
+    "gold_source_id": "progit-v2",
+    "gold_page": 56,
+    "evidence_quote": "(use \"git restore <file>...\" to discard changes in working directory)",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "What is the difference between running git mv and manually moving, removing, and adding files?",
+    "expected_answer": "The only real difference is that git mv is one command instead of three; it is a convenience function.",
+    "gold_source_id": "progit-v2",
+    "gold_page": 46,
+    "evidence_quote": "The only real difference is that git mv is one command instead of three — it’s a convenience function.",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "In Git configuration files, what file contains values applied to every user and repository on the system?",
+    "expected_answer": "/etc/gitconfig",
+    "gold_source_id": "progit-v2",
+    "gold_page": 27,
+    "evidence_quote": "/etc/gitconfig file: Contains values applied to every user on the system and all their repositories.",
+    "filter": {
+      "chapter": "ch01_getting_started"
+    }
+  }
+]
